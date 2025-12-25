@@ -56,8 +56,7 @@ If you want to run this project locally, follow these steps:
 **Anshul Pandey**
 
 * **GitHub:** [anshul-pandeyy](https://github.com/anshul-pandeyy)
-* **Email:** [Insert Your Email Here]
-* **LinkedIn:** [Insert Your LinkedIn Profile Link Here]
+* **Email:** okanshul1404@gmail.com
 
 ---
 *⭐️ If you find this project interesting, please consider giving it a star!*
