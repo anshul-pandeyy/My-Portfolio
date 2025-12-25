@@ -30,15 +30,15 @@
     gap: 30px;
 }
 .contact-left h1{
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 70px;
+    font-weight: 600;
     background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .contact-left p{
-    max-width: 550px;
+    max-width: 600px;
     color: #d8d8d8;
     font-size: 20px;
     line-height: 35px;
@@ -46,7 +46,7 @@
 .contact-details{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
     color: #d8d8d8;
     font-size: 22px;
 }
@@ -55,6 +55,24 @@
     align-items: center;
     gap: 20px;
 }
+/* 
+.contact-socials {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.contact-socials img {
+    width: 35px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contact-socials img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2); 
+} */
+
 .contact-right{
     display: flex;
     flex-direction: column;

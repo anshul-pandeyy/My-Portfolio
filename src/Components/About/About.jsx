@@ -1,7 +1,9 @@
 import React from 'react'
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
-import profile_img from "../../assets/about_profile.svg";
+// import profile_img from "../../assets/about_profile.svg";
+// import myPic from "../../assets/myPic.jpeg";
+import myPicRed from "../../assets/myPicRed.jpg";
 
 const About = () => {
   return (
@@ -12,51 +14,47 @@ const About = () => {
       </div>
       <div className="about-section">
         <div className="about-left">
-            <img src={profile_img} alt="" />
+            <img src={myPicRed} alt="" className="about-profile-img" />
         </div>
         <div className="about-right">
             <div className="about-para">
-                <p>Dedicated Software Developer experienced in building high-performance web solutions using React, JavaScript, and modern front-end tools.</p>
-                <p> I excel at translating complex requirements into elegant, scalable user interfaces while focusing on application speed and maintainability.</p>
+                <p>I recently graduate in B.Tech CSE from VIT Bhopal, specializing in MERN and Java. I engineer scalable web architectures.</p>
+                <p> Driven by analytical rigor—honed through 180+ DSA challenges—and entrepreneurial insight from launching D2C platforms, I transform complex requirements into scalable, market-ready digital products. I don’t just write code; I architect secure, user-centric experiences.</p>
             </div>
             <div className="about-skills">
                 <div className="about-skill">
-                    <p>HTML & CSS</p>
-                    <hr style={{width: "50%"}} />
+                    <p>MERN</p>
+                    <hr style={{width: "40%"}} />
                 </div>
                 <div className="about-skill">
-                    <p>JavaScript</p>
-                    <hr style={{width: "70%"}} />
+                    <p>Java & Logic</p>
+                    <hr style={{width: "60%"}} />
                 </div>
                 <div className="about-skill">
-                    <p>React JS</p>
+                    <p>MySQL</p>
                     <hr style={{width: "75%"}} />
                 </div>
                 <div className="about-skill">
-                    <p>Next JS</p>
-                    <hr style={{width: "50%"}} />
-                </div>
-                <div className="about-skill">
-                    <p>Node JS</p>
-                    <hr style={{width: "60%"}} />
+                    <p>Shopify</p>
+                    <hr style={{width: "40%"}} />
                 </div>
             </div>
         </div>
       </div>
       <div className="about-achievments">
         <div className="about-achievment">
-            <h1>10+</h1>
-            <p>YEARS OF EXPERIENCE</p>
+            <h1>180+</h1>
+            <p>DSA Challenges Solved</p>
         </div>
         <hr />
         <div className="about-achievment">
-            <h1>90+</h1>
-            <p>PROJECTS COMPLETED</p>
+            <h1>11+</h1>
+            <p>Core Technologies Mastered</p>
         </div>
         <hr />
         <div className="about-achievment">
             <h1>15+</h1>
-            <p>HAPPY CLIENTS</p>
+            <p>Projects Completed</p>
         </div>
       </div>
     </div>

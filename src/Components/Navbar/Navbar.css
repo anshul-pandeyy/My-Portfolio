@@ -4,6 +4,13 @@
     justify-content: space-between;
     margin: 20px 170px;
 }
+.anshul {
+    height: 130px;          /* Set a fixed height */
+    width: auto;           /* Maintain aspect ratio */
+    display: block;
+    object-fit: contain;   /* Ensures the image isn't stretched */
+    cursor: pointer;
+  }
 .nav-menu{
     display: flex;
     align-items: center;

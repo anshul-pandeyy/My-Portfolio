@@ -38,7 +38,8 @@
     border-radius: 10px;
     transition: 0.3s;
 }
-.mywork-showmore{
+
+/* .mywork-showmore{
     display: flex;
     gap: 15px;
     border-radius: 50px;
@@ -49,11 +50,35 @@
     margin-bottom: 80px;
     transition: 0.6s;
     cursor: pointer;
-}
-.mywork-showmore:hover{
+} */
+/* .mywork-showmore:hover{
     gap: 30px;
     transition: 0.6s;
+} */
+.mywork-showmore {
+    display: flex;
+    padding: 15px 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 50px auto; /* This centers it horizontally */
+    width: max-content; /* Prevents it from stretching full-width */
+    cursor: pointer;
+    transition: 0.4s;
 }
+
+.mywork-showmore:hover {
+    gap: 25px; /* Smoothly moves the arrow on hover */
+    /* background: #B415FF; Or your preferred brand color */
+    border-color: #B415FF;
+}
+
+.mywork-showmore img {
+    width: 15px;
+}
+
 @media (max-width:768px){
     .mywork{
         gap: 50px;
